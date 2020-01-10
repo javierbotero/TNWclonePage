@@ -41,3 +41,27 @@ body {
   font-size: 14px;
   font-family: Shentox, sans serif;
 }
+
+/* Main part */
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 275px;
+  background-color: aqua;
+}
+
+.child-big {
+  border: 1px solid red;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.child-medium {
+  border: 1px solid red;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
