@@ -258,8 +258,9 @@ a {
   height: 200px;
   background-color: aqua;
   border: 1px solid black;
-  flex: 25% 1 1;
+  flex: 20% 1 1;
   list-style-type: none;
+  margin: 12px;
 }
 
 .clickNav {
@@ -273,7 +274,7 @@ a {
 
 @media screen and (max-width: 1023px) {
   .latest-news-li {
-    flex: 33.33% 1 1;
+    flex: 0 1 28%;
   }
 }
 
@@ -340,4 +341,8 @@ a {
   height: 240px;
   background-color: blue;
   border: 1px solid red;
+}
+
+.latest-news-ul {
+  clear: both;
 }
