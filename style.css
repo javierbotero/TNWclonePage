@@ -189,14 +189,19 @@ a {
   font-size: 13px;
 }
 
-.nav1 .nav1-links {
+/* .nav1 .nav1-links {
   display: flex;
   margin-top: 10px;
-}
+} */
 
-.nav2 .nav2-links {
+/* .nav2 .nav2-links {
   display: flex;
   margin-top: 0 15px;
+} */
+
+.flex {
+  display: flex;
+  align-items: center;
 }
 
 .nav2 {
@@ -216,9 +221,7 @@ a {
 }
 
 .right {
-  display: flex;
   margin-right: 20px;
-  margin-top: 10px;
 }
 
 /* Main part */
@@ -345,4 +348,67 @@ a {
 
 .latest-news-ul {
   clear: both;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-upper {
+  background: #131313;
+  padding: 2.5em 0;
+  color: #555;
+}
+
+.footer-links {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+
+.social-links {
+  margin-bottom: 1.5em;
+}
+
+.social-links {
+  margin-bottom: 1.5em;
+}
+
+.social-links li a {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  color: #eee;
+  text-align: center;
+  width: 40px;
+  box-sizing: border-box;
+}
+
+.social-links li a:hover {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #333;
+}
+
+.footer-bottom {
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 2.5em 0;
+}
+
+.footer-bottom .footer-copyright span {
+  display: inline-block;
+}
+
+.footer-bottom .footer-copyright .footer-logo {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+.footer-bottom .footer-copyright span b {
+  color: #f42;
 }
