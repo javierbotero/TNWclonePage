@@ -63,7 +63,8 @@ a {
   font-family: Shentox, sans serif;
 }
 
-.nav-2 .nav-2-icon {
+.nav-2,
+.nav-2-icon {
   width: 50px;
   border-left: 1px solid rgb(170, 170, 170);
   margin: 0;
