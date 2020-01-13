@@ -272,7 +272,7 @@ a {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   :root {
     height: auto;
   }
@@ -304,6 +304,7 @@ a {
   .first {
     height: 50px;
   }
+}
 
   /* @media (max-width: 1024px) {
     .first {
@@ -314,3 +315,20 @@ a {
       float: left;
     }
   } */
+
+/* Deals - lates founding rounds */
+
+.deals-li {
+  background-color: antiquewhite;
+  float: right;
+}
+
+
+
+.latest-funding-blocks {
+  width: 240px;
+  height: 240px;
+  background-color: blue;
+  border: 1px solid red;
+}
+
