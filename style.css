@@ -359,7 +359,9 @@ a {
 
 .rows-categories {
   display: grid;
-  grid-template-columns: repeat();
+  grid-template-columns: repeat(3, 30%);
+  grid-row-gap: 17px;
+  grid-column-gap: 17px;
 }
 
 .rows-categories-items {
