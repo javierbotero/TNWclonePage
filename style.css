@@ -275,13 +275,41 @@ a {
   padding-left: 15px;
 }
 
+.deals-section {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 20px;
+}
+
+.deals-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0px 24px 0px;
+  align-items: center;
+}
+
+.deals-title {
+  color: #f42;
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 32px;
+  font-family: "Chivo", sans-serif;
+  letter-spacing: 0.02rem;
+  cursor: pointer;
+}
+
+.deal-story-title > a:hover {
+  color: #f42;
+  text-decoration: underline rgb(243, 194, 185) solid;
+}
+
 @media screen and (max-width: 1023px) {
   .latest-news-li {
     flex: 0 1 30%;
   }
   #fourth {
     display: none;
-  } 
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -414,11 +442,23 @@ a {
   box-shadow: inset 0 0 0 2px #333;
 }
 
+.social-links > li,
+.other-links > li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
 .footer-bottom {
   background: #000;
   color: #aaa;
   font-size: 13px;
   padding: 2.5em 0;
+}
+
+.social-links > li,
+.other-links > li {
+  display: inline-block;
+  margin: 0 3px;
 }
 
 .footer-bottom .footer-copyright span {
