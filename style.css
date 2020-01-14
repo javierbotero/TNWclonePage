@@ -288,6 +288,90 @@ a {
   align-items: center;
 }
 
+.more-deals {
+  color: #f42;
+}
+
+.more-deals:hover {
+  color: #111;
+}
+
+.deals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.deals-item {
+  min-height: 72px;
+  position: relative;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.deal-story {
+  padding-left: 0;
+}
+
+.deal-image-1 {
+  background-image: url("https://cdnp3.stackassets.com/80ea22e2919f5826b2765ad58a70ffdb0b1e217a/store/de89b6bc5feee838ebfcc0ae7ccc32f5e1556f453b6f538292a1e60842a4/sale_22062_primary_image.jpg");
+}
+
+.deal-image-2 {
+  background-image: url("https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg");
+}
+
+.deal-image-3 {
+  background-image: url("https://cdnp2.stackassets.com/9bfcf7d57291fdbaedfef0ca269c21a6264fa5d5/store/551a266bb1b658bfca7a48be3ae2739adcc71803ce42255c3b110e4bc779/sale_22291_primary_image.jpg");
+}
+
+.deal-image-4 {
+  background-image: url("https://cdnp3.stackassets.com/f6768e41a9920bdcd086be7719365387529af7bc/store/68d73c3ec232ea7a6c53f2eb216430cc3019f60a64a6a8ed28f265785f1b/sale_21856_primary_image.jpg");
+}
+
+.deal-image-5 {
+  background-image: url("https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg");
+}
+
+.deal-image-6 {
+  background-image: url("https://cdnp0.stackassets.com/72ec5f6be82aa335c0705e20589a5f323ebb7cbb/store/627accf6e5520cc7b240d6376619f1ade8d7b9cad265639ffc6acbe89a96/sale_20564_primary_image.jpg");
+}
+
+.deal-image-7 {
+  background-image: url("https://cdnp1.stackassets.com/8d42ed94c5d1b5f03edbf017be3c9abc50c08e6a/store/d1f496d0e86783f61df9f78dca238fe1e7bf03690d064b709038ca4d648a/sale_22408_primary_image.jpg");
+}
+
+.deal-image-8 {
+  background-image: url("https://cdnp2.stackassets.com/a0695bf765f5209ae845b845a7c316092891ea4a/store/54b7b525a385b2b1962c1fa649e01986728b5e98aa2a64343bbbf30681bd/sale_15929_primary_image.jpg");
+}
+
+.deal-photo {
+  left: 0;
+  position: initial;
+  top: 0;
+  width: initial;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 8px;
+  padding-top: 74.5%;
+}
+
+.deal-discount {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #000;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+}
+
 .deals-title {
   color: #f42;
   font-weight: bolder;
@@ -465,7 +549,7 @@ a {
   .latest-news-li {
     flex: 0 1 30%;
   }
-  
+
   #fourth {
     display: none;
   }
@@ -478,7 +562,6 @@ a {
     max-width: 100%;
     margin: 0 20px;
   }
-
 }
 
 @media screen and (max-width: 767px) {
@@ -494,14 +577,15 @@ a {
     width: 100%;
     margin: 0 10px;
   }
-  
+
   .parent {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 200px);
     height: unset;
   }
 
-  .child-big, .child-medium {
+  .child-big,
+  .child-medium {
     grid-column: auto;
     grid-row: auto;
   }
