@@ -277,8 +277,11 @@ a {
 
 @media screen and (max-width: 1023px) {
   .latest-news-li {
-    flex: 0 1 28%;
+    flex: 0 1 30%;
   }
+  #fourth {
+    display: none;
+  } 
 }
 
 @media screen and (max-width: 767px) {
@@ -349,6 +352,24 @@ a {
 .latest-news-ul {
   clear: both;
 }
+
+/* End Deals - lates founding rounds */
+
+/* rows categories */
+
+.rows-categories {
+  display: grid;
+  grid-template-columns: repeat();
+}
+
+.rows-categories-items {
+  width: 392px;
+  height: 680px;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+/* End rows categories */
 
 .footer-section {
   text-align: center;
