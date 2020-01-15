@@ -366,6 +366,25 @@ a {
   display: block;
 }
 
+.deal-price {
+  overflow: hidden;
+  color: #aaa;
+  font-size: 12px;
+  vertical-align: baseline;
+  line-height: 18px;
+  padding-top: 4px;
+}
+
+.old-price {
+  margin-right: 4px;
+  text-decoration: line-through;
+}
+
+.new-price {
+  font-size: 14px;
+  color: #555;
+}
+
 .deals-title {
   color: #f42;
   font-weight: bolder;
@@ -379,6 +398,55 @@ a {
 .deal-story-title > a:hover {
   color: #f42;
   text-decoration: underline rgb(243, 194, 185) solid;
+}
+
+@media (max-width: 768px) {
+  .section-col {
+    grid-template-columns: 1fr;
+  }
+
+  .deals {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+
+  .deal-photo {
+    left: 0;
+    padding-top: 75px;
+    position: absolute;
+    top: 0;
+    width: 75px;
+    background-size: cover;
+  }
+
+  .deal-story-title > a {
+    position: absolute;
+    left: 82px;
+    padding: 2px 0 0 8px;
+  }
+
+  .deal-price {
+    position: absolute;
+    left: 82px;
+    padding: 5px 0 0 8px;
+    top: 30px;
+  }
+
+  .deal-discount {
+    display: none;
+  }
+
+  .blog-item div {
+    height: 4px;
+    width: 8px;
+  }
+
+  .social-links > li,
+  .other-links > li {
+    margin: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -587,4 +655,3 @@ a {
     grid-row: auto;
   }
 }
-
