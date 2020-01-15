@@ -397,6 +397,13 @@ a {
   cursor: pointer;
 }
 
+.deal-story-title > a {
+  font-weight: 700;
+  margin-bottom: 1px;
+  font-size: 14px;
+  color: #111;
+}
+
 .deal-story-title > a:hover {
   color: #f42;
   text-decoration: underline rgb(243, 194, 185) solid;
@@ -409,7 +416,8 @@ a {
 
   .deals {
     display: grid;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
     grid-template-rows: auto;
     grid-gap: 20px;
   }
