@@ -320,9 +320,9 @@ a {
 }
 
 .deals-bottom {
-  display: grid;  
-  grid-template-columns: repeat(4, 1fr);  
-  grid-template-rows: auto; 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
   grid-gap: 20px;
 }
 
@@ -332,10 +332,6 @@ a {
 
 .more-deals:hover {
   color: #111;
-}
-
-.deals {
-  
 }
 
 .deals-item {
@@ -533,11 +529,6 @@ a {
     display: none;
   }
 
-  .blog-item div {
-    height: 4px;
-    width: 8px;
-  }
-
   .social-links > li,
   .other-links > li {
     margin: 0;
@@ -550,7 +541,7 @@ a {
 }
 
 .right {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .nav1 {
@@ -592,10 +583,14 @@ a {
   text-transform: uppercase;
 }
 
+.nav2 ul li {
+  margin-left: 17px;
+}
+
 .nav2 .nav2-icons {
   border-left: 1px solid rgb(170, 170, 170);
   width: 50px;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .clickNav {
@@ -607,23 +602,10 @@ a {
   padding-left: 15px;
 }
 
-.cover-first {
-  background: transparent
-    url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
-  background-repeat: no-repeat;
-  width: 50%;
-  height: 20%;
-  top: 15px;
-  left: 30px;
-  color: #fff;
-  position: absolute;
-  z-index: 5;
-}
-
 @media (max-width: 1024px) {
   .first {
     display: block;
-    height: 79px;
+    height: 82px;
     width: 106px;
     position: relative;
     float: left;
