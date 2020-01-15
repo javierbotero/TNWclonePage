@@ -172,6 +172,19 @@ a {
 
 .logoTNW {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  width: 150px;
+  height: 150px;
+  position: relative;
+  z-index: 2;
+  top: -400px;
+}
+
+.BGgradient {
+  background-image: linear-gradient(to bottom right, red, black);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
 /* latest news layout */
