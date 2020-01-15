@@ -230,8 +230,6 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  height: 275px;
-  background-color: aqua;
 }
 
 .child-big {
@@ -246,6 +244,10 @@ a {
   border: 1px solid red;
   grid-column-start: 3;
   grid-column-end: 4;
+}
+
+.logoTNW {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
 }
 
 /* latest news layout */
@@ -603,6 +605,19 @@ a {
   color: #f42;
 }
 
+@media screen and (min-width: 1024px) {
+  .parent {
+    height: 75vh;
+    max-height: 560px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .parent {
+    height: 60vh;
+  }
+}
+
 @media screen and (max-width: 1129px) {
   .rows-categories {
     padding: 11px;
@@ -610,6 +625,10 @@ a {
 }
 
 @media screen and (max-width: 1023px) {
+  .parent {
+    height: 60vh;
+  }
+
   .latest-news-li {
     flex: 0 1 30%;
   }
@@ -630,6 +649,10 @@ a {
 }
 
 @media screen and (max-width: 767px) {
+  .latest-news-ul {
+    margin: 0;
+  }
+
   .latest-news-li {
     flex-basis: 100%;
     height: 120px;
