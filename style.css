@@ -255,6 +255,7 @@ a {
   flex-wrap: wrap;
   max-width: 1152px;
   margin: 0 auto;
+  clear: both;
 }
 
 .latest-news-li {
@@ -294,13 +295,6 @@ a {
 
 .more-deals:hover {
   color: #111;
-}
-
-.deals {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 20px;
 }
 
 .deals-item {
@@ -424,7 +418,7 @@ a {
 @media (max-width: 1024px) {
   .first {
     display: block;
-    height: 82px;
+    height: 79px;
     width: 106px;
     position: relative;
     float: left;
@@ -443,10 +437,6 @@ a {
   height: 240px;
   background-color: blue;
   border: 1px solid red;
-}
-
-.latest-news-ul {
-  clear: both;
 }
 
 /* End Deals - lates founding rounds */
@@ -545,6 +535,12 @@ a {
   color: #f42;
 }
 
+@media screen and (max-width: 1129px) {
+  .rows-categories {
+    padding: 11px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .latest-news-li {
     flex: 0 1 30%;
@@ -560,7 +556,8 @@ a {
     grid-row-gap: 21px;
     grid-column-gap: 21px;
     max-width: 100%;
-    margin: 0 20px;
+    margin: 0 10px 0 5px;
+    padding: 11px 15px 11px 5px;
   }
 }
 
@@ -571,7 +568,7 @@ a {
   }
 
   .rows-categories {
-    grid-template-columns: 97%;
+    grid-template-columns: 99%;
     grid-auto-rows: 864px;
     grid-row-gap: 21px;
     width: 100%;
@@ -590,3 +587,4 @@ a {
     grid-row: auto;
   }
 }
+
