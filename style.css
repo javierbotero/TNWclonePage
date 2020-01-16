@@ -283,6 +283,17 @@ a {
   margin: 12px;
 }
 
+.header-company {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.logo-company-image {
+  position: absolute;
+  width: 25%;
+}
+
 /* Deals - lates founding rounds */
 
 .deals-info {
