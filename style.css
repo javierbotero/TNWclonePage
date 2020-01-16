@@ -169,6 +169,12 @@ a {
   border: 1px solid red;
   grid-column-start: 3;
   grid-column-end: 4;
+  display: flex;
+  position: relative;
+}
+
+.child-medium .newsInfo h2 {
+  font-size: 200%;
 }
 
 .BGpicture {
@@ -197,6 +203,39 @@ a {
   height: 100%;
   opacity: 50%;
   z-index: 1;
+}
+
+.datetop {
+  position: absolute;
+  top: 8px;
+  right: 21px;
+  color: white;
+  z-index: 3;
+}
+
+.newsInfo {
+  position: absolute;
+  bottom: 10px;
+  left: 18px;
+  color: white;
+  z-index: 3;
+}
+
+.newsInfo h2 {
+  font: bold 56px sans-serif;
+  line-height: 1;
+}
+
+.newsInfo ul {
+  display: flex;
+}
+
+.newsInfo li {
+  margin-right: 5px;
+}
+
+.newsInfo > * {
+  margin-top: 15px;
 }
 
 /* latest news layout */
@@ -710,9 +749,18 @@ a {
     background-position: center;
   }
 
+  .logoTNW {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
+
+  #firstNews {
+    font-size: 200%;
+  }
+  
   .latest-news-ul {
     margin: 0;
   }
