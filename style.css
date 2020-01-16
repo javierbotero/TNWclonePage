@@ -148,6 +148,13 @@ a {
   margin-left: 15px;
 } */
 
+/* General rules */
+
+.headings {
+  color: #f42;
+  font: 700 150% sans-serif;
+}
+
 /* Main part */
 
 .parent {
@@ -278,9 +285,24 @@ a {
 
 /* Deals - lates founding rounds */
 
-.deals-li {
-  background-color: antiquewhite;
+.deals-info {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0 14px;
+}
+
+.deals p {
+  display: inline-block;
+}
+
+.deals ul {
   float: right;
+}
+
+.deals-li {
+  margin-right: 10px;
+  float: left;
+  color: #f42;
 }
 
 .latest-funding-blocks {
@@ -794,6 +816,19 @@ a {
 
   .logoTNW {
     display: none;
+  }
+
+  .deals-info {
+    flex-direction: row;
+  }
+
+  .deals-li {
+    float: left;
+  }
+
+  .deals-ul {
+    display: block;
+    float: none !important; 
   }
 }
 
