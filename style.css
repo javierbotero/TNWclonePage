@@ -144,16 +144,16 @@ a {
   margin: 0 !important;
 }
 
-h1 > a {
+/* h1 > a {
   margin-left: 15px;
-}
+} */
 
 /* General rules */
 
-.headings {
+/* .headings {
   color: #f42;
   font: 700 150% sans-serif;
-}
+} */
 
 /* Main part */
 
@@ -253,10 +253,10 @@ h1 > a {
   display: none;
 }
 
-.cover-links li {
+/* .cover-links li {
   display: inline-block;
   color: hsla(0, 0%, 100%, 0.6);
-}
+} */
 
 .story-cover-links li {
   display: inline-block;
@@ -306,7 +306,7 @@ h1 > a {
 
 .info-company {
   color: #000;
-  background: rgba(255,68,34,0.08);
+  background: rgba(255, 68, 34, 0.08);
   padding: 9px 10px 14px 89px;
 }
 
@@ -323,7 +323,7 @@ h1 > a {
 }
 
 .behavior-company {
-  border-top: 1px solid rgba(255,68,34,.25);
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
   padding: 10px 10px 38px 10px;
   line-height: 22px;
   font-size: 13px;
@@ -763,13 +763,13 @@ h1 > a {
 } */
 
 .title {
-  margin: 0, auto;
-  max-width: 1200px;
-  font-weight: 500;
   color: #f42;
+  font-weight: bolder;
   font-size: 28px;
   line-height: 32px;
-  padding: 60px 0 0 10px;
+  font-family: "Chivo", sans-serif;
+  letter-spacing: 0.02rem;
+  cursor: pointer;
 }
 
 .story-title {
