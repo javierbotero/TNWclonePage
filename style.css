@@ -374,10 +374,9 @@ a {
 }
 
 .picture-categories {
-  background: 
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Peacock-368x276.jpg") no-repeat,
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Peacock-368x276.jpg")
+      no-repeat,
     linear-gradient(to bottom, transparent, rgba(50, 50, 50, 0.2));
-
 }
 
 .content-categories-latest {
@@ -403,6 +402,57 @@ a {
   height: 121%;
 }
 
+/* ----------------wrapper------------------*/
+
+.wrapper {
+  width: 100%;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.latest-news1 {
+  margin: 30px 0;
+}
+
+.section-anchors {
+  font-size: 28px;
+  color: #f42;
+  font-family: "Avalon-bold", sans-serif;
+}
+
+.container-latest-news1 li {
+  padding: 15px 0 0 0;
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  grid-gap: 14px;
+  clear: both;
+}
+
+.container-latest-news1 a img {
+  width: 82px;
+  height: 85px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/1-copy-copy-copy-1-516x270.jpg");
+  background-position: 50%;
+  background-size: cover;
+}
+
+.latest-news1-author > a,
+.latest-news1-author {
+  color: gray;
+  font-size: 12px;
+}
+
+.descript {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: "arsR", sans-serif;
+}
+
+.grid-wrapperVer {
+  vertical-align: baseline;
+}
 
 /* Nav & footer */
 
@@ -791,9 +841,9 @@ a {
   /* margin: 0; */
 }
 
-/* .headings1 {
+.latest-news1 {
   padding: 15px 0;
-} */
+}
 
 .title {
   color: #f42;
@@ -994,5 +1044,40 @@ a {
   .child-medium {
     grid-column: auto;
     grid-row: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hidden {
+    display: none;
+  }
+
+  .descript {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid-wrapperVer {
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 10px;
+  }
+
+  .grid-wrapperVer li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-news1-image .latest-news1-pic img {
+    width: 95%;
+    height: auto;
+    max-height: 200px;
+  }
+
+  .span-full-column {
+    grid-column: span 3;
   }
 }
