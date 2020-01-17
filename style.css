@@ -369,7 +369,40 @@ a {
 .rows-categories-items {
   background-color: aquamarine;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
+
+.picture-categories {
+  background: 
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Peacock-368x276.jpg") no-repeat,
+    linear-gradient(to bottom, transparent, rgba(50, 50, 50, 0.2));
+
+}
+
+.content-categories-latest {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 23px);
+}
+
+.content-categories-latest h5 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+
+.content-categories-latest h4 {
+  grid-column: 1 / 4;
+  grid-row: 2 / 4;
+}
+
+.mini-pic {
+  grid-column: 4 / 5;
+  grid-row: 1 / 4;
+  width: 156%;
+  height: 121%;
+}
+
 
 /* Nav & footer */
 
