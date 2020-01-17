@@ -377,12 +377,26 @@ a {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Peacock-368x276.jpg")
       no-repeat,
     linear-gradient(to bottom, transparent, rgba(50, 50, 50, 0.2));
+  height: 70%;
+  background-size: cover;
+  background-position: top;
+}
+
+.info-picture {
+  position: relative;
+  bottom: -64%;
+  left: 8px;
+  color: white;
 }
 
 .content-categories-latest {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 23px);
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 33.33%);
+  overflow: hidden;
+  height: 22%;
+  padding: 0 10px;
+  color: #f42;
 }
 
 .content-categories-latest h5 {
@@ -400,6 +414,13 @@ a {
   grid-row: 1 / 4;
   width: 156%;
   height: 121%;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/google-shopping-search.png");
+  background-position: -24px 1px;
+  background-size: 100%;
+}
+
+.para-categories-latest {
+  margin: 21px 10px 23px 10px;
 }
 
 /* ----------------wrapper------------------*/
