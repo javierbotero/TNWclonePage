@@ -366,16 +366,17 @@ a {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Peacock-368x276.jpg")
       no-repeat,
     linear-gradient(to bottom, transparent, rgba(50, 50, 50, 0.2));
-  height: 70%;
+  height: 260px;
   background-size: cover;
   background-position: top;
 }
 
 .info-picture {
   position: relative;
-  bottom: -71%;
+  bottom: 35%;
   left: 8px;
   color: white;
+  z-index: 2;
 }
 
 .mostPopular-title {
@@ -390,11 +391,13 @@ a {
   height: 22%;
   padding: 0 10px;
   color: #f42;
+  background-color: rgba(255,68,34,.06)
 }
 
 .content-categories-latest h5 {
   grid-column: 1 / 4;
   grid-row: 1 / 2;
+  margin-top: 11px;
 }
 
 .content-categories-latest h4 {
