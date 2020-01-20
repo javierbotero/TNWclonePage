@@ -204,7 +204,7 @@ a {
   z-index: 1;
 }
 
-.BGgradient-dark   {
+.BGgradient-dark {
   background: linear-gradient(
     to bottom,
     rgba(50, 50, 50, 0.2),
@@ -527,6 +527,13 @@ a {
 .other-links > li {
   display: inline-block;
   margin: 0 3px;
+}
+
+.descript {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: "arsR", sans-serif;
 }
 
 .deals-section {
