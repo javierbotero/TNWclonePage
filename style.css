@@ -930,6 +930,14 @@ a {
     padding: 11px 15px 11px 5px;
   }
 
+  .newsInfo h2 {
+    font-size: 40px;
+  }
+
+  .child-medium .newsInfo h2 {
+    font-size: 130%;
+  }
+
   .BGgradient {
     display: none;
   }

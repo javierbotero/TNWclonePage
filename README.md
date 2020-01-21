@@ -13,7 +13,7 @@ Read more about the project detailed description from the [Odin website](https:/
 
 ### [Assingment Link](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design)
 
-### [Live link]()
+### [Live link](https://raw.githack.com/javierbotero/TNWclonePage/newBranch/index.html)
 
 # Languages Used
 
