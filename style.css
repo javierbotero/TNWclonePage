@@ -260,7 +260,6 @@ a {
 }
 
 .latest-news-li {
-  border: 1px solid black;
   flex: 20% 1 1;
   list-style-type: none;
   margin: 12px;
@@ -318,7 +317,7 @@ a {
 /* Deals - lates founding rounds */
 
 .deals-info {
-  max-width: 1152px;
+  /* max-width: 1152px; */
   margin: 0 auto;
   padding: 0 14px;
 }
@@ -835,6 +834,8 @@ a {
 .nav2 .nav2-icons {
   border-left: 1px solid rgb(170, 170, 170);
   width: 50px;
+  position: relative;
+  right: 33px;
   /* margin: 0; */
 }
 
@@ -1008,7 +1009,7 @@ a {
   .grid-wrapperVer {
     clear: both;
     display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, minmax(20%, 1fr));
     grid-template-rows: auto;
     grid-gap: 10px;
   }
